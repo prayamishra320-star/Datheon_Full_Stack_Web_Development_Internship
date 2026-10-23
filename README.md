@@ -13,4 +13,4 @@ Task 1: Responsive Portfolio with About, Projects, Skills, Contact
 Task 2: Coming soon
 
 ### Author
-Praya Mishra - Datheon Intern
+Priya Mishra - Datheon Intern
