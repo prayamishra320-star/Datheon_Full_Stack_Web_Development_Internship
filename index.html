@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Priya Mishra - Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <h2>Datheon</h2>
+  <button id="menuBtn">☰</button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button id="themeToggle">🌙</button>
+</nav>
+
+<section class="section" id="hero">
+  <img src="Photo 1.jpeg" class="profile-pic">
+  <h1> I'm Priya Mishra</h1>
+  <p>Full Stack Web Developer Intern @ Datheon</p>
+</section>
+
+<section class="section" id="about">
+    <h2>About Me</h2>
+    <p>Hello, I am Priya Mishra From Jabalpur.</p>
+    <p>Currently, I am pursuing my degree in Computer Science and Engineering.</p>
+    <p>I have a strong interest in web development and enjoy creating interactive and user-friendly web applications.</p>
+    <p>I am a passionate developer building modern responsive websites.</p>
+</section>
+
+<section class="section" id="resume">
+  <h2>Resume</h2>
+  <p>Download my resume <a href="Resume1.jpeg" target="_blank">here</a>.</p>
+</section>
+
+<section class="section" id="skills">
+  <h2>Skills</h2>
+  <ul class="skills-list">
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>GitHub</li></ul>
+</section>
+
+<section class="section" id="projects">
+    <h2>Projects</h2>
+<div class="project-grid">
+  <div class="card" onclick="openModal('Portfolio Project - HTML CSS JS')"><img src="http://127.0.0.1:5500/index.html/300x150"><h3>Portfolio Website</h3></div>
+  <div class="card" onclick="openModal('Task Manager - CRUD App')"><img src="http://127.0.0.1:5500/300x150"><h3>Task Manager</h3></div>
+</div>
+</section>
+
+<section class="section" id="contact"><h2>Contact</h2>
+<form>
+  <input placeholder="prayamishra320@gmail.com">
+  <input placeholder="https://www.linkedin.com/in/priya-mishra">
+  <input placeholder="https://github.com/prayamishra320-star">
+  <textarea placeholder="Message"></textarea>
+  <button>Send</button>
+</form>
+</section>
+
+<div id="modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); justify-content:center; align-items:center;">
+  <div style="background:#fff; padding:2rem; border-radius:10px;"><p id="modalText"></p><button onclick="closeModal()">Close</button></div>
+</div>
+
+<script src="script.js">defer</script>
+</body>
+</html>
