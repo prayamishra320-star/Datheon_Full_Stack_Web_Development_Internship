@@ -1,0 +1,10 @@
+*{box-sizing:border-box; font-family: sans-serif;}
+body{background:#fff7ed; margin:0; padding:20px;}
+.container{max-width:650px; margin:auto; background:white; padding:20px; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,0.1);}
+.input-box, .filters{display:flex; gap:8px; flex-wrap:wrap; margin:15px 0;}
+input, select, button{padding:10px; border-radius:8px; border:1px solid #ccc;}
+button{background:#f97316; color:white; border:none; cursor:pointer; font-weight:bold;}
+button:hover{background:#ea580c;}
+li{list-style:none; background:#fef3c7; margin:8px 0; padding:12px; border-radius:8px; display:flex; justify-content:space-between; align-items:center; transition:0.3s;}
+li.completed{text-decoration:line-through; opacity:0.6; background:#dcfce7;}
+#taskList{padding:0;}
